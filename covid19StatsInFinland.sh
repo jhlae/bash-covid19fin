@@ -5,10 +5,6 @@
 # Stats on Coronavirus in Finland
 # Utilizes https://github.com/HS-Datadesk/koronavirus-avoindata
 
-fileName="covid19StatsInFinland.sh"
-chmod 755 "$fileName"
-touch "$fileName"
-
 # Check for Homebrew, install if necessary
 if test ! $(which brew)
  then
