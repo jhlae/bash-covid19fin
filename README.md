@@ -3,7 +3,8 @@
 Simple bash script that fetches the [HS Open data](https://github.com/HS-Datadesk/koronavirus-avoindata) on Coronavirus (COVID-19) in Finland. Currently lists total count for infections and deaths.
 
 
-Usage
+## Usage
+
 ```console
 chmod 775 covid19StatsInFinland.sh
 ```
