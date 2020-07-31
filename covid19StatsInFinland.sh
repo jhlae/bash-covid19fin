@@ -22,7 +22,7 @@ then
 fi
 
 # Download and save the JSON
-curl -s 'https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData' > coronaData.json
+curl -s 'https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData/v2' > coronaData.json
 echo -e "---------------------------------"
 printf "Coronavirus in Finland "; date +"%d.%m.%Y";
 echo -e "---------------------------------"
